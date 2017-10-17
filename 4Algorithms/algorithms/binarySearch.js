@@ -4,4 +4,10 @@
 module.exports = exports = function(input, value) {
   var bottom = 0, top = input.length - 1, index = null;
 //  complete the function
+  for (var i = 0; i<input.length; i++){
+    if (input[i] === value){
+      return i
+    }
+  }
+return -1
 };

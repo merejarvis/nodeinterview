@@ -6,4 +6,8 @@ module.exports = exports = function(input) {
 };
 function quickSort(input, first, last) {
 //  complete the function
+var sorted = input.sort(function (a, b) {
+  return a - b;
+})
+return sorted
 }
